@@ -25,3 +25,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.metallic-text {
+  background: linear-gradient(90deg, #b8b8b8, #e0e0e0, #b8b8b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.2), 0 3px 3px rgba(0, 0, 0, 0.3);
+}
